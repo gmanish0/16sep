@@ -18,7 +18,7 @@ async function getStudents(req,res) {
   try{
     let students= await Student.find({});
     console.log(students,'students')
-    res.send(student)
+    res.send(students)
   }catch(err){
 
   }
